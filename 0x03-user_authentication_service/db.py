@@ -7,6 +7,7 @@ from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.orm.session import Session
 from user import Base, User
 
+
 class DB:
     """Database class"""
     def __init__(self) -> None:
